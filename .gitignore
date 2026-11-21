@@ -1,0 +1,14 @@
+# Dependencies & build output (recreated with npm install / npm run build)
+node_modules
+dist
+*.tsbuildinfo
+
+# Secrets — never upload
+.env
+.env.local
+.env.*.local
+supabase/make_me_admin.sql
+
+# Local editor / assistant settings
+.claude/
+.vscode/
