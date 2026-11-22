@@ -1221,3 +1221,12 @@ end $$;
 -- ════════════════ First administrator ════════════════
 -- Run supabase/make_me_admin.sql once (it contains your email). After that,
 -- invite other staff by email from the website: Admin → Staff.
+
+-- ════════════════ Website read access ════════════════
+-- (same as supabase/004_api_read_access.sql) Newer Supabase projects don't
+-- grant table access to the API roles automatically. SELECT only: RLS still
+-- filters rows, and all writes go through the functions above.
+grant usage on schema public to anon, authenticated;
+grant select on all tables in schema public to anon, authenticated;
+alter default privileges in schema public grant select on tables to anon, authenticated;
+notify pgrst, 'reload schema';
