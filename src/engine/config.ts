@@ -56,7 +56,7 @@ function shell(partial: Partial<Match> & Pick<Match, 'id' | 'number' | 'label' |
   };
 }
 
-/** Builds the 32 official fixtures. Group fixtures reference draw slots until groups are locked. */
+/** Builds the 31 official fixtures. Group fixtures reference draw slots until groups are locked. */
 export function buildFixtures(): Match[] {
   const seq: { g: GroupId; r: number; p: [number, number] }[] = [];
   ROUND_PAIRS.forEach((pairs, r) => {

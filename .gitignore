@@ -12,3 +12,9 @@ supabase/make_me_admin.sql
 # Local editor / assistant settings
 .claude/
 .vscode/
+
+# Project archives
+*.zip
+
+# Extracted copy of the zip
+moroccan-squad-clash/

@@ -46,7 +46,7 @@ export const TEXT_DEFAULTS: Record<string, TextDef> = {
   ...page('squads', 'Squads', 'The contenders', 'Every registered squad — only approved squads compete.'),
   ...page('draw', 'Official Group Draw · Nov 24', 'Group draw', '16 approved squads are randomly distributed into 4 groups of 4. Only administrators can run or modify the official draw. Once locked, fixtures are generated automatically.'),
   ...page('standings', 'Group Stage · Days 1–5', 'League standings', 'Victory = 3 points · Defeat = 0. Kills and placement do not count. Tie-breakers: points → head-to-head → deciding match. Tables update automatically after staff verify a result.'),
-  ...page('schedule', 'Match Calendar', 'Match schedule', '32 official matches across 8 days. All times are Morocco time (UTC+1). Each matchup has its own custom room — credentials are visible only to the two squads and authorised staff.'),
+  ...page('schedule', 'Match Calendar', 'Match schedule', '31 official matches across 8 days. All times are Morocco time (UTC+1). Each matchup has its own custom room — credentials are visible only to the two squads and authorised staff.'),
   ...page('live', 'Live Match Center', 'Live **center**', 'Real-time commentary, match events, official results and viewer chat for every match.'),
   ...page('bracket', 'Knockout Stage · Days 6–8', 'Knockout bracket', 'Single elimination. The bracket fills itself automatically as staff verify results — group winners and runners-up cross over, winners advance, losers are eliminated.'),
   ...page('killers', '🎯 Top Killer Race · 530 Diamonds', 'Leaderboards', 'Official verified results only. Kills count for the Top Killer award and statistics — they never affect squad qualification.'),
